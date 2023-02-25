@@ -1,0 +1,230 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "f05b2136-7510-4d02-9d18-c4b869c89dac",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "d={}"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "0b8530a5-35f7-4e6f-a561-a32d33a42d93",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "dict"
+      ]
+     },
+     "execution_count": 2,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(d)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "4db1d705-274a-4ffb-b55b-b7a38a5d34d5",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "d1={'key':\"ujjwal\"}"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "53f97c8e-c397-412b-b77a-e2e44c7271a7",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "d2={'s':\"agarwal\",'s':[\"aujjwal747@gmail.com\",\"ujjwal\"]}"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "71911fc0-2f9c-4cab-a2f2-92d8b480875f",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['aujjwal747@gmail.com', 'ujjwal']"
+      ]
+     },
+     "execution_count": 14,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "d2['s']"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "f008be4e-64c8-457a-9d00-b8c696501329",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['aujjwal747@gmail.com', 'ujjwal']"
+      ]
+     },
+     "execution_count": 16,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "d2['s']"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "080c88db-33ed-4a8b-b1ed-31aa9b9282d8",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "d1['name']=\"beta\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "542252d7-3ad9-43f2-b3d5-fcb827448a7d",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'key': 'ujjwal', 'name': 'beta'}"
+      ]
+     },
+     "execution_count": 21,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "d1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "003dd321-919c-4c85-8336-254da137f335",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "del d1['key']"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "52fc3536-21c3-4304-982f-51d746e00798",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'name': 'beta'}"
+      ]
+     },
+     "execution_count": 24,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "d1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "2eb74a9e-6227-4f0e-992f-57d4d44f3a7f",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "d2.items()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "b5ad2348-e3d2-41a1-aceb-e126c35fa6e5",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "marks=67\n",
+    "if marks>=80:\n",
+    "    print(\"success\")\n",
+    "eleif marks>=60 and marks<80:\n",
+    "    print(\"average\")\n",
+    "else:\n",
+    "    print(\"fail\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "7e972e48-be9f-4d5e-9dbd-57b83eabe187",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "marks=67\n",
+    "if marks>=80:\n",
+    "    print(\"success\")\n",
+    "eleif marks>=60 and marks<80:\n",
+    "    print(\"average\")\n",
+    "else:\n",
+    "    print(\"fail\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "fb99f1d3-39ca-4e68-a31c-ecb1ecac22c2",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.10.8"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
